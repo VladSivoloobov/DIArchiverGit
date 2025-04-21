@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\WINLib">
+      <UniqueIdentifier>{be955329-0b0b-45f8-9149-e8a4e58d17de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\WINLib\WINLayouts">
+      <UniqueIdentifier>{228a03de-c168-473f-8a4b-ae805073b689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\WINApi">
+      <UniqueIdentifier>{acaa39b5-c590-4090-bd04-2fe6fa62af7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\WINLib">
+      <UniqueIdentifier>{124b5f23-b94b-44a2-88c4-9c1f6670a153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\WINLib\WINComponents">
+      <UniqueIdentifier>{214a884d-1472-4396-85de-8c68327c4238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\WINLib\WINLayouts">
+      <UniqueIdentifier>{24d794e7-ec57-430b-81f3-445bd2d6844f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\WINLib\WINApi">
+      <UniqueIdentifier>{3cbcc573-a9d7-4335-a90c-ee7886a60b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utils">
+      <UniqueIdentifier>{11fd6064-babd-454a-8741-47936bb119c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\WINLib\WINComponents">
+      <UniqueIdentifier>{7268a1f4-dc86-49cc-a421-8cb1d39e92ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="WINControl.h">
+      <Filter>Файлы заголовков\WINLib\WINApi</Filter>
+    </ClCompile>
+    <ClCompile Include="WINControl.cpp">
+      <Filter>Исходные файлы\WINApi</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWINControl.cpp">
+      <Filter>Исходные файлы\WINApi</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterClass.cpp">
+      <Filter>Исходные файлы\WINApi</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlMessageLoop.cpp">
+      <Filter>Исходные файлы\WINApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Messages.cpp">
+      <Filter>Исходные файлы\WINApi</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertCharToWideChar.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertCharToWideChar.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindowProc.cpp">
+      <Filter>Исходные файлы\WINApi</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRoot.cpp">
+      <Filter>Исходные файлы\WINApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Исходные файлы\WINLib\WINComponents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>Файлы заголовков\WINLib\WINComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout.h">
+      <Filter>Файлы заголовков\WINLib\WINLayouts</Filter>
+    </ClInclude>
+    <ClInclude Include="Alignment.h">
+      <Filter>Файлы заголовков\WINLib</Filter>
+    </ClInclude>
+    <ClInclude Include="WINRoot.h">
+      <Filter>Файлы заголовков\WINLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWINControl.h">
+      <Filter>Файлы заголовков\WINLib\WINApi</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterClass.h">
+      <Filter>Файлы заголовков\WINLib\WINApi</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlMessageLoop.h">
+      <Filter>Файлы заголовков\WINLib\WINApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Файлы заголовков\WINLib\WINApi</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlParameters.h">
+      <Filter>Файлы заголовков\WINLib\WINApi</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindowProc.h">
+      <Filter>Файлы заголовков\WINLib\WINApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
